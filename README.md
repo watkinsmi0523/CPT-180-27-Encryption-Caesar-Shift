@@ -6,7 +6,7 @@ It will then create a `./encrypted.txt` file with the caesar shift encoding.
 #### Development
 You will need the following
 - CMAKE >= 3.4
-- conan [https://conan.io](https://conan.io) // To manage library dependencies
+- conan [https://conan.io](https://conan.io) To manage library dependencies
   - gtest >= 1.7
 - Pyton >= 2.7
 
