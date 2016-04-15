@@ -1,9 +1,9 @@
 #include <iostream>
 #include <fstream>
 
-std::string PLAIN_TEXT_FILE = "./plain.txt";
-std::string CYPHER_TEXT_FILE = "./encrypted.txt";
-std::string DECYPHER_TEXT_FILE = "./decrypted.txt";
+std::string PLAIN_TEXT_FILE = "plain.txt";
+std::string CYPHER_TEXT_FILE = "encrypted.txt";
+std::string DECYPHER_TEXT_FILE = "decrypted.txt";
 int SHIFT = 1;
 
 char* encrypt(std::string plain_text, int shift);
